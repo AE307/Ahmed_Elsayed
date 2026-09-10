@@ -1,11 +1,14 @@
 # Ahmed Elsayed — Backend Developer (.NET)
 
+[![Live Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Live%20Website-06b6d4?style=for-the-badge)](https://ae307.github.io/Ahmed_Elsayed/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-elsayed-fathi/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AE307)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a_elsayed_f@icloud.com)
 [![Download CV](https://img.shields.io/badge/📄%20Download-CV%20%2F%20Resume-blue?style=for-the-badge)](./Ahmed_Elsayed_Resume.pdf)
 
 📍 Cairo, Egypt | 📞 [+20 106-572-5997](tel:+201065725997) | ✉️ [a_elsayed_f@icloud.com](mailto:a_elsayed_f@icloud.com)
+
+> 🌐 **Interactive Portfolio Website**: [https://ae307.github.io/Ahmed_Elsayed/](https://ae307.github.io/Ahmed_Elsayed/) (Enable GitHub Pages from repository settings -> Pages -> branch `main` -> root `/`).
 
 ---
 

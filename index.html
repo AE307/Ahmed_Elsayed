@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Elsayed | Software Engineer (.NET & Backend)</title>
+  <meta name="description" content="Software Engineer specializing in .NET, C#, ASP.NET Core, Clean Architecture, EF Core, and SQL Server. Delivering reliable, scalable backend systems and REST APIs.">
+  <meta name="author" content="Ahmed Elsayed">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Ahmed Elsayed — Software Engineer Portfolio">
+  <meta property="og:description" content="Backend Developer specializing in .NET, C#, ASP.NET Core, and Clean Architecture.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ae307.github.io/Ahmed_Elsayed/">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#hero" class="brand-logo">
+        <span>AE</span><span class="brand-tag">.dev</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#capabilities" class="nav-link">Capabilities</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle Theme"></button>
+        <a href="./Ahmed_Elsayed_Resume.pdf" class="btn btn-outline btn-sm" download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>CV (PDF)</span>
+        </a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="nav-mobile" class="nav-mobile">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#capabilities" class="nav-link">Capabilities</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="./Ahmed_Elsayed_Resume.pdf" class="btn btn-primary" download>Download CV (PDF)</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for Software Engineer Roles</span>
+          </div>
+
+          <h1 class="hero-name">Ahmed Elsayed</h1>
+          <div class="hero-subtitle">Software Engineer <span class="gradient-text">&amp; Backend Specialist</span></div>
+
+          <p class="hero-bio">
+            Backend Developer specializing in <strong>.NET</strong>, with hands-on experience designing and shipping high-performance REST APIs and full backend systems using <strong>C#</strong>, <strong>ASP.NET Core</strong>, <strong>EF Core</strong>, and <strong>SQL Server</strong>. Builds with <strong>Clean Architecture</strong> (Repository, Unit of Work, Specification patterns) and delivers reliable, maintainable solutions from planning through deployment.
+          </p>
+
+          <div class="hero-highlights">
+            <div class="highlight-pill"><span>⚡ Stack:</span> C# / ASP.NET Core / EF Core</div>
+            <div class="highlight-pill"><span>🏛️ Architecture:</span> Clean Architecture &amp; Patterns</div>
+            <div class="highlight-pill"><span>💾 Data:</span> SQL Server &amp; Redis</div>
+            <div class="highlight-pill"><span>🎓 Degree:</span> B.Sc. in Computer Science (GPA: 3.1)</div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="./Ahmed_Elsayed_Resume.pdf" class="btn btn-outline" download>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV (PDF)</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/AE307" target="_blank" rel="noopener noreferrer" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>github.com/AE307</span>
+            </a>
+
+            <a href="https://linkedin.com/in/ahmed-elsayed-fathi/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <button class="social-link copy-email-btn" title="Copy email address">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>a_elsayed_f@icloud.com</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Terminal Card representing Clean Architecture & C# -->
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+            </div>
+            <div class="terminal-title">CleanArchitecture.OrderService.cs</div>
+            <span class="mono" style="font-size: 0.75rem; color: var(--accent-cyan);">C# / .NET</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="code-comment">// Clean Architecture: Core Domain &amp; Specification</span></p>
+            <p><span class="code-keyword">public class</span> <span class="code-type">OrderService</span> : <span class="code-type">IOrderService</span></p>
+            <p>{</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">private readonly</span> <span class="code-type">IUnitOfWork</span> _unitOfWork;</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">private readonly</span> <span class="code-type">ICacheService</span> _redisCache;</p>
+            <p><br></p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public async</span> <span class="code-type">Task</span>&lt;<span class="code-type">OrderResult</span>&gt; <span class="code-func">ProcessOrderAsync</span>(<span class="code-type">OrderDto</span> dto)</p>
+            <p>&nbsp;&nbsp;{</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">var</span> spec = <span class="code-keyword">new</span> <span class="code-type">OrderWithItemsSpecification</span>(dto.Id);</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">var</span> order = <span class="code-keyword">await</span> _unitOfWork.<span class="code-func">Repository</span>&lt;<span class="code-type">Order</span>&gt;().<span class="code-func">GetEntityWithSpec</span>(spec);</p>
+            <p><br></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-comment">// Validate inventory &amp; calculate totals</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;order.<span class="code-func">ApplyPayment</span>(dto.PaymentMethod);</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">await</span> _unitOfWork.<span class="code-func">CompleteAsync</span>();</p>
+            <p><br></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-type">OrderResult</span>.<span class="code-func">Success</span>(order.Id);</p>
+            <p>&nbsp;&nbsp;}</p>
+            <p>}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME ==================== -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Engineering Mindset with Practical Delivery</h2>
+        <p class="section-desc">Transforming complex business logic into clean, testable, and resilient backend architectures.</p>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a <strong>Software Engineer</strong> specializing in backend development with a strong grounding in Computer Science from <strong>Misr International University (GPA: 3.1)</strong> and comprehensive specialized training through <strong>Route Learning</strong> in C#, ASP.NET Core, and relational database systems.
+            </p>
+            <p>
+              My engineering philosophy centers around <strong>Clean Architecture</strong>, maintainable object-oriented design, and predictable data flow. Rather than stitching together brittle scripts, I design modular systems utilizing the <strong>Repository Pattern</strong>, <strong>Unit of Work</strong>, and <strong>Specification Pattern</strong> to ensure business domains remain completely decoupled from underlying database and infrastructure dependencies.
+            </p>
+            <p>
+              From architecting the full e-commerce backend and storefront for <strong>RELIQ Productions</strong> (now live in production) to building static code syntax parsers with Machine Learning in <strong>QualiCode</strong> and collaborating remotely with US-based clients at <strong>OffshorUp</strong>, I take ownership of the full development lifecycle from architectural planning to deployment and maintenance.
+            </p>
+          </div>
+
+          <div class="about-metrics">
+            <div class="metric-card">
+              <div class="metric-val">.NET Core</div>
+              <div class="metric-label">Primary Specialization</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-val">3.1 GPA</div>
+              <div class="metric-label">B.Sc. Computer Science</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-val">4-Tier</div>
+              <div class="metric-label">Clean Architecture Layers</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-val">End-to-End</div>
+              <div class="metric-label">Production Delivery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TECHNICAL SKILLS ==================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <span class="section-tag">Technical Competencies</span>
+        <h2 class="section-title">Skills &amp; Technology Stack</h2>
+        <p class="section-desc">Technologies and patterns utilized across production client deliveries, graduation research, and enterprise training.</p>
+
+        <div class="skills-tabs">
+          <button class="skill-tab-btn active" data-filter="all">All Technologies</button>
+          <button class="skill-tab-btn" data-filter="backend">Backend &amp; Languages</button>
+          <button class="skill-tab-btn" data-filter="arch">Architecture &amp; Patterns</button>
+          <button class="skill-tab-btn" data-filter="data">Data &amp; Infrastructure</button>
+          <button class="skill-tab-btn" data-filter="web">Web Fundamentals</button>
+          <button class="skill-tab-btn" data-filter="tools">Tools &amp; Methods</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Backend & Languages -->
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">C#</span>
+                <span class="skill-category-badge">Core Language</span>
+              </div>
+              <p class="skill-desc">Primary language for backend systems, asynchronous programming (`async`/`await`), object-oriented modeling, and robust domain design.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">ASP.NET Core</span>
+                <span class="skill-category-badge">Framework</span>
+              </div>
+              <p class="skill-desc">Building scalable RESTful Web APIs, dependency injection configuration, middleware pipelines, and JWT authorization.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend data">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">EF Core &amp; LINQ</span>
+                <span class="skill-category-badge">ORM / Queries</span>
+              </div>
+              <p class="skill-desc">Relational mapping, code-first migrations, query composition, eager/lazy loading optimization, and transaction safety.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">.NET</span>
+                <span class="skill-category-badge">Ecosystem</span>
+              </div>
+              <p class="skill-desc">Modern cross-platform runtime for developing high-throughput web applications, microservices, and class libraries.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Python &amp; Flask</span>
+                <span class="skill-category-badge">Language / API</span>
+              </div>
+              <p class="skill-desc">Engineered the machine learning service and AST code analysis backend for the QualiCode static analysis platform.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Java &amp; Spring Boot</span>
+                <span class="skill-category-badge">Language / Framework</span>
+              </div>
+              <p class="skill-desc">Academic foundation and backend services engineering utilizing enterprise Java and Spring dependency injection.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="backend web">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">PHP &amp; AJAX</span>
+                <span class="skill-category-badge">Backend / Web</span>
+              </div>
+              <p class="skill-desc">Engineered internal portals for attendance tracking, grievance management, and asynchronous HR workflows.</p>
+            </div>
+          </div>
+
+          <!-- Architecture & Patterns -->
+          <div class="skill-card" data-category="arch">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Clean Architecture</span>
+                <span class="skill-category-badge">Architecture</span>
+              </div>
+              <p class="skill-desc">Structured onion/hexagonal layers (Core Domain, Shared, Infrastructure, Web API) isolating core rules from external dependencies.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="arch">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Repository &amp; Unit of Work</span>
+                <span class="skill-category-badge">Design Patterns</span>
+              </div>
+              <p class="skill-desc">Decoupling business logic from data access logic while orchestrating multi-entity database transaction commits.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="arch">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Specification Pattern</span>
+                <span class="skill-category-badge">Design Pattern</span>
+              </div>
+              <p class="skill-desc">Encapsulating query criteria and business rules into reusable specification objects, avoiding bloated repository contracts.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="arch">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">REST API Design</span>
+                <span class="skill-category-badge">API Architecture</span>
+              </div>
+              <p class="skill-desc">Standardized HTTP verbs, status codes, DTO mappings, structured response envelopes, and error handling middleware.</p>
+            </div>
+          </div>
+
+          <!-- Data & Infrastructure -->
+          <div class="skill-card" data-category="data">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">SQL Server</span>
+                <span class="skill-category-badge">Database</span>
+              </div>
+              <p class="skill-desc">Relational schema design, normalization, foreign keys, index optimization, and complex relational querying.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="data">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Redis</span>
+                <span class="skill-category-badge">Caching</span>
+              </div>
+              <p class="skill-desc">In-memory caching for accelerated data retrieval, distributed session storage, and reducing database load.</p>
+            </div>
+          </div>
+
+          <!-- Web Fundamentals -->
+          <div class="skill-card" data-category="web">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">HTML5, CSS3, JavaScript</span>
+                <span class="skill-category-badge">Frontend</span>
+              </div>
+              <p class="skill-desc">Developed the custom e-commerce storefront for RELIQ Productions, dynamic shopping cart UI, and interactive administrative panels.</p>
+            </div>
+          </div>
+
+          <!-- Tools & Methods -->
+          <div class="skill-card" data-category="tools">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-category-badge">Version Control</span>
+              </div>
+              <p class="skill-desc">Branching strategies, collaborative workflows, conflict resolution, and maintaining clean commit histories.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Postman</span>
+                <span class="skill-category-badge">API Tooling</span>
+              </div>
+              <p class="skill-desc">Endpoint testing, automated collections, environment management, and comprehensive API documentation.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">Agile &amp; Problem Solving</span>
+                <span class="skill-category-badge">Methodology</span>
+              </div>
+              <p class="skill-desc">Iterative delivery, cross-timezone team communication, structured scope management, and analytical problem resolution.</p>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div>
+              <div class="skill-header">
+                <span class="skill-name">AI-Assisted Engineering</span>
+                <span class="skill-category-badge">Productivity</span>
+              </div>
+              <p class="skill-desc">Leveraging modern AI tools (Claude, GitHub Copilot) to accelerate delivery velocity while enforcing code cleanliness and architectural rigor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. FEATURED PROJECTS ==================== -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <span class="section-tag">Featured Projects</span>
+        <h2 class="section-title">Engineered Systems &amp; Case Studies</h2>
+        <p class="section-desc">Real-world production platforms, client deliveries, and technical implementations built with modern engineering practices.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1: RELIQ Productions -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge live">● Live in Production</span>
+              <span class="mono" style="font-size: 0.75rem; color: var(--text-muted);">Jul 2026 – Aug 2026</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">RELIQ Productions — E-Commerce System</h3>
+              <div class="project-role">Freelance Full Stack Developer (Remote)</div>
+              <p class="project-summary">
+                Designed and engineered the full e-commerce website for RELIQ Productions, a fashion brand, built from scratch and currently live at <strong>reliqproductions.com</strong>.
+              </p>
+              <ul class="project-features">
+                <li>Architected a <strong>.NET ASP.NET Core Web API</strong> with a 4-layer Clean Architecture (`Shared` / `Core` / `Infrastructure` / `API`).</li>
+                <li>Engineered product catalog with multi-variant inventory management (sizes/colors) and persistent cart.</li>
+                <li>Implemented dual checkout supporting <strong>Cash on Delivery</strong> and <strong>InstaPay</strong> transfers.</li>
+                <li>Secured endpoints via <strong>JWT authentication</strong> with Admin and Customer role authorization.</li>
+                <li>Delivered dedicated administrative dashboard for inventory and order management.</li>
+              </ul>
+
+              <div class="arch-box">
+                <div style="color: var(--accent-cyan); font-weight: 600; margin-bottom: 0.4rem;">System Architecture:</div>
+                <div class="arch-layer"><span>[API Layer]</span> <span>ASP.NET Core Controllers &amp; JWT Middleware</span></div>
+                <div class="arch-layer"><span>[Core Layer]</span> <span>Domain Entities, Interfaces &amp; Specifications</span></div>
+                <div class="arch-layer"><span>[Infrastructure]</span> <span>Data Context, Payment Handlers &amp; Repositories</span></div>
+                <div class="arch-layer"><span>[Client UI]</span> <span>Responsive HTML5 / CSS3 / Vanilla JS</span></div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">Clean Architecture</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">InstaPay</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="#" class="case-study-btn open-case-study" data-study="reliq">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="https://reliqproductions.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>Live Website ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Commerca -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge">.NET Platform</span>
+              <span class="mono" style="font-size: 0.75rem; color: var(--text-muted);">Self-Employed</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Commerca — Modular E-Commerce Platform</h3>
+              <div class="project-role">Software Engineer / Backend Developer</div>
+              <p class="project-summary">
+                A full-featured e-commerce platform built in .NET designed for multi-client deployment, covering product cataloging, order workflows, and administrative operations.
+              </p>
+              <ul class="project-features">
+                <li>Strictly applied <strong>Clean Architecture</strong> with Repository, Unit of Work, and Specification patterns.</li>
+                <li>Decoupled database queries using reusable specifications for complex filtering and pagination.</li>
+                <li>Engineered transaction-safe checkout and order fulfillment state machines.</li>
+                <li>Customized and deployed for multiple business clients, owning requirements, delivery, and ongoing support.</li>
+              </ul>
+
+              <div class="arch-box">
+                <div style="color: var(--accent-cyan); font-weight: 600; margin-bottom: 0.4rem;">Design Pattern Stack:</div>
+                <div class="arch-layer"><span>[Specification]</span> <span>Composable Criteria &amp; Dynamic Filters</span></div>
+                <div class="arch-layer"><span>[Unit of Work]</span> <span>Multi-Repository Transaction Boundaries</span></div>
+                <div class="arch-layer"><span>[Repository]</span> <span>Generic CRUD &amp; Specification Evaluators</span></div>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">EF Core</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">Clean Architecture</span>
+                <span class="tech-tag">Specification Pattern</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="#" class="case-study-btn open-case-study" data-study="commerca">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Production Deployed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: QualiCode -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Graduation Project</span>
+              <span class="mono" style="font-size: 0.75rem; color: var(--text-muted);">Computer Science</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">QualiCode — Code Style &amp; Complexity Checker</h3>
+              <div class="project-role">Backend &amp; Machine Learning Developer</div>
+              <p class="project-summary">
+                A static code analysis web platform combining Machine Learning and Abstract Syntax Tree (AST) parsing to evaluate time complexity and enforce coding style standards.
+              </p>
+              <ul class="project-features">
+                <li>Built the <strong>Machine Learning model</strong> and <strong>Flask backend API</strong> for real-time code analysis.</li>
+                <li>Parsed raw source code into an <strong>Abstract Syntax Tree (AST)</strong> to inspect syntactic structures and extract complexity metrics.</li>
+                <li>Implemented algorithmic detection for naming convention violations (`camelCase` vs. `snake_case`).</li>
+                <li>Automated the detection of residual debugging statements and unformatted syntax fragments.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">AST Parsing</span>
+                <span class="tech-tag">Static Analysis</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="#" class="case-study-btn open-case-study" data-study="qualicode">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <span class="mono" style="font-size: 0.8rem; color: var(--accent-cyan);">AST Engine</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: OffshorUp CRM -->
+          <div class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Client CRM</span>
+              <span class="mono" style="font-size: 0.75rem; color: var(--text-muted);">Nov 2024 – Jan 2025</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">OffshorUp — CRM Platform &amp; Web Solution</h3>
+              <div class="project-role">Backend Developer (Remote, USA)</div>
+              <p class="project-summary">
+                Developed a responsive landing website and custom CRM backend for a US-based client in a fast-paced remote engagement.
+              </p>
+              <ul class="project-features">
+                <li>Coordinated requirements and sprint deliverables across multiple time zones in an Agile setting.</li>
+                <li>Implemented backend data management pipelines for client contact handling and lead tracking.</li>
+                <li>Proactively resolved a critical scope conflict over concurrent code edits by proposing clean modular ownership and division of responsibilities.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Backend Development</span>
+                <span class="tech-tag">CRM System</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Agile / Scrum</span>
+                <span class="tech-tag">Git</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="#" class="case-study-btn open-case-study" data-study="offshorup">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Remote Client Delivery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. EXPERIENCE TIMELINE ==================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <span class="section-tag">Career History</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-desc">Demonstrated technical track record building client solutions, managing delivery lifecycles, and collaborating remotely.</p>
+
+        <div class="timeline">
+          <!-- Item 1: RELIQ Productions -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Freelance Full Stack Developer</h3>
+                  <div class="timeline-company">RELIQ Productions (Remote)</div>
+                </div>
+                <span class="timeline-date">Jul 2026 – Aug 2026</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Designed and built the full e-commerce website for RELIQ Productions, a local fashion brand, from the ground up — currently live at <a href="https://reliqproductions.com/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">reliqproductions.com</a>.</li>
+                <li>Architected a <strong>.NET ASP.NET Core Web API</strong> backend with a layered Clean Architecture (`Shared` / `Core` / `Infrastructure` / `API`) alongside an HTML/CSS/JavaScript storefront.</li>
+                <li>Implemented product catalog with variant/stock management, persistent cart, dual checkout (Cash on Delivery and InstaPay), JWT authentication with Admin/Customer roles, and an administrative dashboard.</li>
+                <li>Used AI-assisted development tools (Claude, GitHub Copilot) throughout the build to accelerate delivery velocity while keeping the codebase modular and well-structured.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">.NET</span>
+                <span class="tech-tag">ASP.NET Core Web API</span>
+                <span class="tech-tag">Clean Architecture</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">HTML/CSS/JS</span>
+                <span class="tech-tag">AI-Assisted Tools</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: OffshorUp -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Backend Developer</h3>
+                  <div class="timeline-company">OffshorUp (Remote, USA)</div>
+                </div>
+                <span class="timeline-date">Nov 2024 – Jan 2025</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Developed a landing website and CRM system for a US-based client in a fully remote engagement, coordinating requirements and delivery across time zones.</li>
+                <li>Resolved a scope conflict over overlapping code edits by proposing a clear division of responsibilities, keeping the project strictly on schedule.</li>
+                <li>Ensured high standards of code maintainability and transparent communication with cross-functional stakeholders.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Backend Development</span>
+                <span class="tech-tag">CRM Integration</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">Agile Methodologies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. ENGINEERING CAPABILITIES ==================== -->
+    <section id="capabilities" class="section section-alt">
+      <div class="container">
+        <span class="section-tag">Engineering Strengths</span>
+        <h2 class="section-title">Core Engineering Capabilities</h2>
+        <p class="section-desc">Practical software engineering capabilities grounded in actual delivery and verified CV experience.</p>
+
+        <div class="capabilities-grid">
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="capability-title">REST API Design &amp; Architecture</h3>
+            <p class="capability-desc">
+              Designing standardized, stateless Web APIs using ASP.NET Core with strict DTO boundaries, HTTP status consistency, input validation, and role-based JWT authentication.
+            </p>
+          </div>
+
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="capability-title">Clean Architecture &amp; Patterns</h3>
+            <p class="capability-desc">
+              Structuring applications into decoupled layers (Core Domain, Infrastructure, API) using Repository, Unit of Work, and Specification patterns for maximum testability.
+            </p>
+          </div>
+
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="capability-title">Database Modeling &amp; ORM</h3>
+            <p class="capability-desc">
+              Architecting normalized relational schemas in SQL Server, orchestrating EF Core migrations, writing efficient LINQ queries, and enforcing relational integrity.
+            </p>
+          </div>
+
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="capability-title">In-Memory Caching &amp; Performance</h3>
+            <p class="capability-desc">
+              Integrating Redis caching layers for quick data lookups, session acceleration, and minimizing database bottlenecks under repetitive high-read traffic.
+            </p>
+          </div>
+
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="capability-title">Program Analysis &amp; AST Traversal</h3>
+            <p class="capability-desc">
+              Hands-on static code analysis engineering via Abstract Syntax Trees (AST) to evaluate syntax tree structures, enforce naming conventions, and evaluate time complexity.
+            </p>
+          </div>
+
+          <div class="capability-card">
+            <div class="capability-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="capability-title">AI-Assisted Delivery Workflows</h3>
+            <p class="capability-desc">
+              Utilizing AI tools (Claude, GitHub Copilot) to accelerate delivery and boilerplate production while maintaining strict human-in-the-loop architectural oversight.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. EDUCATION & TRAINING ==================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <span class="section-tag">Academic &amp; Training</span>
+        <h2 class="section-title">Education &amp; Professional Programs</h2>
+        <p class="section-desc">Rigorous academic foundation in Computer Science combined with hands-on enterprise .NET engineering programs.</p>
+
+        <div class="edu-grid">
+          <div class="edu-card">
+            <span class="edu-tag">Bachelor's Degree</span>
+            <h3 class="edu-degree">Bachelor's Degree in Computer Science</h3>
+            <div class="edu-inst">Misr International University, Faculty of Computer Science</div>
+            <div class="edu-date">2020 – 2024 &nbsp;|&nbsp; <strong style="color: var(--accent-cyan);">GPA: 3.1</strong></div>
+            <p class="edu-details">
+              Core academic curriculum covering Object-Oriented Programming (OOP), Data Structures &amp; Algorithms, Software Engineering, Database Systems, and Discrete Mathematics. Capstone: QualiCode code style and algorithmic complexity checker.
+            </p>
+          </div>
+
+          <div class="edu-card">
+            <span class="edu-tag">Professional Training</span>
+            <h3 class="edu-degree">Backend Web Development (.NET)</h3>
+            <div class="edu-inst">Route Learning</div>
+            <div class="edu-date">2025 – 2026</div>
+            <p class="edu-details">
+              Comprehensive professional training program covering advanced C#, ASP.NET Core Web API architecture, Entity Framework Core ORM, Microsoft SQL Server relational database engineering, and modern REST API patterns.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. LEADERSHIP & EXTRACURRICULARS ==================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <span class="section-tag">Leadership</span>
+        <h2 class="section-title">Leadership &amp; Extracurricular Activities</h2>
+        <p class="section-desc">Demonstrated collaboration, project planning, and technical contributions in university organizations.</p>
+
+        <div class="edu-grid">
+          <div class="edu-card">
+            <span class="edu-tag">Project Management</span>
+            <h3 class="edu-degree">Project Manager</h3>
+            <div class="edu-inst">MUN &amp; Arab League</div>
+            <div class="edu-date">2023 – 2024</div>
+            <p class="edu-details">
+              Led project planning and team coordination for club initiatives and charity events, aligning cross-functional members around shared deadlines and operational objectives.
+            </p>
+          </div>
+
+          <div class="edu-card">
+            <span class="edu-tag">Software Development</span>
+            <h3 class="edu-degree">IT Member</h3>
+            <div class="edu-inst">MUN &amp; Arab League</div>
+            <div class="edu-date">2022 – 2023</div>
+            <p class="edu-details">
+              Built internal web portals for attendance tracking, complaint management, and HR interviews using PHP, HTML, CSS, JavaScript, and AJAX, streamlining club operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. GITHUB SHOWCASE ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="github-banner">
+          <div class="github-info">
+            <span class="section-tag" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Code &amp; Repositories</span>
+            <h3>Explore My Code on GitHub</h3>
+            <p>
+              Check out my repositories, project architectures, and open-source code on GitHub under handle <strong>@AE307</strong>. You can also view this portfolio's source code and resume repository directly.
+            </p>
+          </div>
+          <div>
+            <a href="https://github.com/AE307" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 1rem; padding: 0.85rem 1.75rem;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>Visit @AE307 on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 10. CONTACT SECTION ==================== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-desc">Open to Software Engineer and Backend Developer opportunities. Feel free to reach out directly or send an inquiry.</p>
+
+        <div class="contact-grid">
+          <div class="contact-cards">
+            <!-- Email -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-type">Email</div>
+                  <a href="mailto:a_elsayed_f@icloud.com" class="contact-value">a_elsayed_f@icloud.com</a>
+                </div>
+              </div>
+              <button class="copy-btn copy-email-btn" title="Copy Email">Copy</button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-type">Phone</div>
+                  <a href="tel:+201065725997" class="contact-value">+20 106-572-5997</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-type">Location</div>
+                  <span class="contact-value">Cairo, Egypt</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-type">Professional Network</div>
+                  <a href="https://linkedin.com/in/ahmed-elsayed-fathi/" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/ahmed-elsayed-fathi/</a>
+                </div>
+              </div>
+              <a href="https://linkedin.com/in/ahmed-elsayed-fathi/" target="_blank" rel="noopener noreferrer" class="copy-btn">Visit ↗</a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form id="contact-form" class="contact-form">
+            <h3 style="margin-bottom: 1.25rem; font-size: 1.25rem;">Send a Direct Message</h3>
+
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Software Engineer Role / Inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#hero">Back to Top</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="./Ahmed_Elsayed_Resume.pdf" download>Download CV (PDF)</a>
+        <a href="https://github.com/AE307" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/ahmed-elsayed-fathi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <p>&copy; 2026 Ahmed Elsayed. Built with Clean Code &amp; Modern Web Standards.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== CASE STUDY MODAL ==================== -->
+  <div id="case-study-modal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close Case Study">✕</button>
+      <div id="modal-case-study-content"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
